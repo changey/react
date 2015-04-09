@@ -26,11 +26,6 @@ var Dialog = React.createClass({displayName: "Dialog",
 });
 
 React.renderComponent(
-	    React.createElement(Dialog, {
-				text: "Do you want to continue?", 
-				okButtonText: "OK", 
-				cancelButtonText: "Cancel", 
-				okAction: this.okAction}
-			),
+    React.createElement(Dialog, null),
     document.body
 );

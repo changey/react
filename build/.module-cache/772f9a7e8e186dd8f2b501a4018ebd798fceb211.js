@@ -26,8 +26,8 @@ var Dialog = React.createClass({displayName: "Dialog",
 });
 
 React.renderComponent(
-	    React.createElement(Dialog, {
-				text: "Do you want to continue?", 
+	React.createElement(Dialog, {
+				text: "When in e-audit mode, pricing cannot be modified", 
 				okButtonText: "OK", 
 				cancelButtonText: "Cancel", 
 				okAction: this.okAction}
